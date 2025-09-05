@@ -115,7 +115,7 @@ export function Navbar() {
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  href={item.href}
+                href={`/#${item.href}`}
                   className={`block px-3 py-2 text-base font-medium transition-colors hover:text-purple-600 dark:hover:text-purple-400 ${
                     pathname === item.href
                       ? 'text-purple-600 dark:text-purple-400'

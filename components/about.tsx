@@ -22,13 +22,13 @@ export default function About() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="relative w-80 h-80 mx-auto lg:mx-0 rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600 to-cyan-600 p-1">
+            <div>
+            <div className="relative w-[210px] h-[210px] sm:w-80 sm:h-80 max-w-sm mx-auto lg:mx-0 rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600 to-cyan-600 p-1">
               <div className="w-full h-full bg-slate-200 dark:bg-slate-700 rounded-2xl flex items-center justify-center">
-                <img src="/AboutPhoto.jpg" alt="Aly Salem" className="object-cover w-full h-full rounded-2xl" />
+              <img src="/AboutPhoto.jpg" alt="Aly Salem" className="object-cover w-full h-full rounded-2xl" />
               </div>
             </div>
-          </div>
+            </div>
 
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-slate-800 dark:text-white">

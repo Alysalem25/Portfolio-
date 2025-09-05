@@ -219,7 +219,7 @@ export default function Contact() {
                     <Link
                       key={index}
                       href={link.href}
-                      className={`flex items-center space-x-3 p-4 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 hover:scale-105 ${link.color}`}
+                      className={`flex items-center space-x-3 sm:p-4 m-0 p-1 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 hover:scale-105 ${link.color}`}
                     >
                       <link.icon className="h-5 w-5" />
                       <span className="font-medium">{link.label}</span>

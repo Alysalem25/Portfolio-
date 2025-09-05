@@ -25,13 +25,13 @@ export default function Home() {
               Cybersecurity Student with a focus on modern development practices.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link href="/projects">
+              {/* <Link href="/projects">
                 <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
                   View Projects
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-              </Link>
-              <Link href="/contact">
+              </Link> */}
+              <Link href="/contact">  
                 <Button variant="outline" size="lg">
                   Contact Me
                 </Button>

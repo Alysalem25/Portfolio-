@@ -111,7 +111,7 @@ export default function Projects() {
 
         {/* Category Filter */}
         <div className="flex justify-center mb-12">
-          <div className="flex space-x-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-lg">
+          <div className="flex flex-wrap justify-around space-x-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-lg">
             {categories.map((index) => (
               <Button
                 key={index}

@@ -125,7 +125,7 @@ export default function Certificates() {
 
         {/* Category Filter */}
         <div className="flex justify-center mb-12 overflow-x-auto">
-          <div className="flex space-x-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-lg min-w-max">
+          <div className="flex flex-wrap justify-around space-x-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-lg">
             {categories.map((category) => (
               <Button
                 key={category}
