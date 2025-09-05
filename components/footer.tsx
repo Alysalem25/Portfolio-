@@ -15,25 +15,25 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="mailto:aly.salem@example.com"
+                href="mailto:alysalem25t@gmail.com"
                 className="text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >
                 <Mail className="h-5 w-5" />
               </Link>
               <Link
-                href="https://linkedin.com/in/alysalem"
+                href="https://linkedin.com/in/alysalem2"
                 className="text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link
-                href="https://github.com/alysalem"
+                href="https://github.com/Alysalem25"
                 className="text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >
                 <Github className="h-5 w-5" />
               </Link>
               <Link
-                href="https://leetcode.com/alysalem"
+                href="https://leetcode.com/u/aly25t/"
                 className="text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >
                 <Code2 className="h-5 w-5" />
@@ -49,7 +49,7 @@ export function Footer() {
               {['About', 'Skills', 'Projects', 'Experience'].map((item) => (
                 <li key={item}>
                   <Link
-                    href={`/${item.toLowerCase()}`}
+                    href={`/#${item.toLowerCase()}`}
                     className="text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
                   >
                     {item}
@@ -64,7 +64,7 @@ export function Footer() {
               Connect
             </h3>
             <ul className="space-y-2">
-              {['Certificates', 'Contact'].map((item) => (
+              {['Certificates', 'Projects'].map((item) => (
                 <li key={item}>
                   <Link
                     href={`/${item.toLowerCase()}`}
