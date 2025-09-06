@@ -57,7 +57,7 @@ export default function About() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href="/contact">
+              <Link href="/#contact">
                 <Button size="lg" className="bg-purple-600 hover:bg-purple-700 w-full sm:w-auto">
                   Get In Touch
                 </Button>

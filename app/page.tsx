@@ -31,7 +31,7 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link> */}
-              <Link href="/contact">  
+              <Link href="/#contact">  
                 <Button variant="outline" size="lg">
                   Contact Me
                 </Button>
