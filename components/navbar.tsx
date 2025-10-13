@@ -113,8 +113,8 @@ export function Navbar() {
           <div className="md:hidden">
             <div className="space-y-1 pb-3 pt-2">
               {navigation.map((item) => (
-                <Link
-                  key={item.name}
+             <Link
+                key={item.name}
                 href={`/#${item.href}`}
                   className={`block px-3 py-2 text-base font-medium transition-colors hover:text-purple-600 dark:hover:text-purple-400 ${
                     pathname === item.href
