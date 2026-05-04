@@ -48,6 +48,62 @@ export const projects: Projects = {
             'User experience design principles'
         ]
     },
+    //     {
+    //   title: 'Pearl Travel Group',
+    //   id: 'Pearl-Travel-Group',
+    //   description: 'Developed a full-stack tourism platform for Pearl Travel Company to manage travel packages, bookings, and user experiences with a scalable and user-friendly system.',
+    //   tech: ['Next.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'swiper.js', 'axios', 'bcrypt'],
+    //   category: 'Web Development',
+    //   status: 'Completed',
+    //   slug: 'pearl-travel-group',
+    //   gitLink: 'https://github.com/Alysalem25/pearl-travel-group',
+    //   image: '/pearl1.jpeg'
+    // },
+
+
+    'Pearl-Travel-Group': {
+        title: 'Pearl Travel Group',
+        year: '2026',
+        description: 'A full-stack tourism platform designed for managing travel packages, bookings, and enhancing customer travel experiences through a modern digital system.',
+        fullDescription: `This project was developed for Pearl Travel Company to digitize and streamline tourism services, including travel package management, booking workflows, and user interaction with available destinations and offers. The system focuses on providing a smooth and intuitive experience for users while maintaining efficient backend operations.
+
+Key features include:
+• Travel packages listing with detailed itineraries and pricing
+• Booking system with reservation management
+• User-friendly interface for exploring destinations
+• Admin dashboard for managing trips, offers, and bookings
+• Secure backend APIs for data handling and operations
+• Responsive design for mobile and desktop users
+• Optimized performance for fast navigation and loading
+
+The project demonstrates my ability to build a complete full-stack application that solves real-world business problems in the tourism industry while ensuring scalability, usability, and clean architecture.`,
+
+        tech: ['Next.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'swiper.js', 'axios', 'bcrypt'],
+        category: 'Full Stack Development',
+        status: 'Completed',
+        duration: '3 months',
+        team: 'Hazem, Blair, Aly Salem',
+        image: '/pearl1.jpeg',
+        gitLink: 'https://github.com/Alysalem25/pearl-travel-group',
+        demoLink: 'https://pearltravels.com/',
+
+        challenges: [
+            'Designing a scalable structure for managing bookings and travel packages',
+            'Handling data consistency between user bookings and admin updates',
+            'Building a clean and intuitive UI for non-technical users',
+            'Integrating frontend with backend APIs efficiently',
+            'Managing team collaboration and task distribution'
+
+        ],
+
+        learnings: [
+            'Full-stack development using MERN stack in a real-world scenario',
+            'API design and integration between frontend and backend',
+            'Database modeling for booking and travel systems',
+            'Improved teamwork and agile collaboration skills',
+            'Better understanding of user experience in tourism applications'
+        ]
+    },
     'Article-website': {
         title: 'Article Website',
         year: '2023',

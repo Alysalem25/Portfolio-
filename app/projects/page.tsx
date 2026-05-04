@@ -17,6 +17,17 @@ export default function Projects() {
 
   const projects = [
     {
+      title: 'Pearl Travel Group',
+      id: 'Pearl-Travel-Group',
+      description: 'Developed a full-stack tourism platform for Pearl Travel Company to manage travel packages, bookings, and user experiences with a scalable and user-friendly system.',
+      tech: ['Next.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'swiper.js', 'axios', 'bcrypt'],
+      category: 'Web Development',
+      status: 'Completed',
+      slug: 'pearl-travel-group',
+      gitLink: 'https://github.com/Alysalem25/pearl-travel-group',
+      image: '/pearl1.jpeg'
+    },
+    {
       id: 'Craftex',
       title: 'Craftex',
       year: '2025',

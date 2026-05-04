@@ -109,12 +109,12 @@ export default function Home() {
                 image: '/articleProject.png'
               },
               {
-                title: 'Online-Shop for food',
-                id: 'Online-Shop-for-food',
-                description: 'A platform for ordering food online, featuring a user-friendly interface.',
-                tech: 'Html ,CSS, JavaScript, Tailwind CSS',
-                slug: 'online-shop-for-food',
-                image: '/onlineShoppingProject.png'
+                title: 'Pearl Travel Group',
+                id: 'Pearl-Travel-Group',
+                description: 'Developed a full-stack tourism platform for Pearl Travel Company to manage travel packages, bookings, and user experiences with a scalable and user-friendly system.',
+                tech: 'Next.js, Express.js, MongoDB, Tailwind CSS, swiper.js , axios ,bcrypt',
+                slug: 'pearl-travel-group',
+                image: '/pearl1.jpeg'
               },
             ].map((project, index) => (
               <div
