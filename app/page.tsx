@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="mt-8 flex items-center justify-center space-x-6">
               <Link
-                href="Jana Eldesouky.pdf.pdf"
+                href="janaCV.pdf"
                 target='_blank'
                 className="inline-flex items-center text-sm font-medium text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >
