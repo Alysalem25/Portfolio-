@@ -15,7 +15,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center mt-14">
             <h1 className="text-4xl font-bold tracking-tight text-slate-800 dark:text-white sm:text-6xl lg:text-7xl">
-              <span className="block">Aly Salem</span>
+              <span className="block">Jana Eldesouky</span>
               <span className="block bg-gradient-to-r from-purple-600 to-cyan-600 bg-clip-text text-transparent">
                 Full-Stack Developer
               </span>
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="mt-8 flex items-center justify-center space-x-6">
               <Link
-                href="Aly Salem.pdf.pdf"
+                href="Jana Eldesouky.pdf.pdf"
                 target='_blank'
                 className="inline-flex items-center text-sm font-medium text-slate-600 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400 transition-colors"
               >

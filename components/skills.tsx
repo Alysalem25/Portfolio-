@@ -2,8 +2,8 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata = {
-  title: 'Skills - Aly Salem',
-  description: 'Technical skills, tools, and languages of Aly Salem.',
+  title: 'Skills - Jana Eldesouky',
+  description: 'Technical skills, tools, and languages of Jana Eldesouky.',
 };
 
 export default function Skills() {

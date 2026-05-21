@@ -8,12 +8,12 @@ import { Footer } from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Aly Salem - Full-Stack Developer & Cybersecurity Student',
-  description: 'Portfolio of Aly Salem, a passionate full-stack web developer and cybersecurity student building secure, scalable systems and innovative web applications.',
-  keywords: 'Aly Salem, Full-Stack Developer, Cybersecurity, Web Development, Portfolio',
-  authors: [{ name: 'Aly Salem' }],
+  title: 'Jana Eldesouky - Full-Stack Developer & Cybersecurity Student',
+  description: 'Portfolio of Jana Eldesouky, a passionate full-stack web developer and cybersecurity student building secure, scalable systems and innovative web applications.',
+  keywords: 'Jana Eldesouky, Full-Stack Developer, Cybersecurity, Web Development, Portfolio',
+  authors: [{ name: 'Jana Eldesouky' }],
   openGraph: {
-    title: 'Aly Salem - Full-Stack Developer & Cybersecurity Student',
+    title: 'Jana Eldesouky - Full-Stack Developer & Cybersecurity Student',
     description: 'Portfolio showcasing projects, skills, and experience in web development and cybersecurity.',
     type: 'website',
   },

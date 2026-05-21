@@ -9,8 +9,8 @@ import { useState } from 'react';
 
 export default function Projects() {
   const metadata = {
-    title: 'Projects - Aly Salem',
-    description: 'Portfolio of projects by Aly Salem showcasing web development and cybersecurity work.',
+    title: 'Projects - Jana Eldesouky',
+    description: 'Portfolio of projects by Jana Eldesouky showcasing web development and cybersecurity work.',
   };
 
   const [selectedCategory, setSelectedCategory] = useState('All');
