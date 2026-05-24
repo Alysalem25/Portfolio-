@@ -44,14 +44,14 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alysalem25t@gmail.com',
-      href: 'mailto:alysalem25t@gmail.com'
+      value: 'janadesouky4321@gmail.com',
+      href: 'mailto:janadesouky4321@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+20 1211343515',
-      href: 'tel:+201211343515'
+      value: '+20 1229373166',
+      href: 'tel:+201229373166'
     },
     {
       icon: MapPin,
@@ -62,28 +62,28 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    {
-      icon: Github,
-      label: 'GitHub',
-      href: 'https://github.com/Alysalem25',
-      color: 'hover:text-slate-600'
-    },
-    {
-      icon: Linkedin,
-      label: 'LinkedIn', 
-      href: 'linkedin.com/in/alysalem2',
-      color: 'hover:text-blue-600'
-    },
-    {
-      icon: Code2,
-      label: 'LeetCode',
-      href: 'https://leetcode.com/u/aly25t/',
-      color: 'hover:text-orange-600'
-    },
+    // {
+    //   icon: Github,
+    //   label: 'GitHub',
+    //   href: 'https://github.com/Alysalem25',
+    //   color: 'hover:text-slate-600'
+    // },
+    // {
+    //   icon: Linkedin,
+    //   label: 'LinkedIn', 
+    //   href: 'linkedin.com/in/alysalem2',
+    //   color: 'hover:text-blue-600'
+    // },
+    // {
+    //   icon: Code2,
+    //   label: 'LeetCode',
+    //   href: 'https://leetcode.com/u/aly25t/',
+    //   color: 'hover:text-orange-600'
+    // },
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:alysalem25t@gmail.com',
+      href: 'mailto:janadesouky4321@gmail.com',
       color: 'hover:text-purple-600'
     }
   ];
