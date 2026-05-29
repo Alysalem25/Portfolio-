@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-4">
-              Jana Eldesouky
+              Aly Salem
             </h3>
             <p className="text-slate-600 dark:text-slate-300 mb-4 max-w-md">
               Full-Stack Web Developer & Cybersecurity Student passionate about building secure, scalable systems and innovative web applications.
@@ -80,7 +80,7 @@ export function Footer() {
         
         <div className="mt-8 border-t pt-8 text-center">
           <p className="text-slate-600 dark:text-slate-400">
-            © 2025 Jana Eldesouky. All rights reserved.
+            © 2025 Aly Salem. All rights reserved.
           </p>
         </div>
       </div>

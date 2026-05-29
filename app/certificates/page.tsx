@@ -8,8 +8,8 @@ import { useState } from 'react';
 
 export default function Certificates() {
   const metadata = {
-    title: 'Certificates - Jana Eldesouky',
-    description: 'Professional certificates and courses completed by Jana Eldesouky.',
+    title: 'Certificates - Aly Salem',
+    description: 'Professional certificates and courses completed by Aly Salem.',
   };
 
 

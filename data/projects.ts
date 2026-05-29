@@ -82,7 +82,7 @@ The project demonstrates my ability to build a complete full-stack application t
         category: 'Full Stack Development',
         status: 'Completed',
         duration: '3 months',
-        team: 'Jana Eldesouky',
+        team: 'Aly Salem',
         image: '/pearl1.jpeg',
         gitLink: 'https://github.com/Alysalem25/pearl-travel-group',
         demoLink: 'https://pearltravels.com/',

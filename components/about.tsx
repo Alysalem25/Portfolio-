@@ -4,8 +4,8 @@ import { Download, MapPin, GraduationCap, Calendar } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About - Jana Eldesouky',
-  description: 'Learn more about Jana Eldesouky, a passionate full-stack developer and cybersecurity student.',
+  title: 'About - Aly Salem',
+  description: 'Learn more about Aly Salem, a passionate full-stack developer and cybersecurity student.',
 };
 
 export default function About() {
@@ -25,14 +25,14 @@ export default function About() {
             <div>
             <div className="relative w-[210px] h-[210px] sm:w-80 sm:h-80 max-w-sm mx-auto lg:mx-0 rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600 to-cyan-600 p-1">
               <div className="w-full h-full bg-slate-200 dark:bg-slate-700 rounded-2xl flex items-center justify-center">
-              <img src="mylove.jpeg" alt="Jana Eldesouky" className="object-cover h-full rounded-2xl" />
+              <img src="mylove.jpeg" alt="Aly Salem" className="object-cover h-full rounded-2xl" />
               </div>
             </div>
             </div>
 
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-slate-800 dark:text-white">
-              Hello, I'm Jana Eldesouky
+              Hello, I'm Aly Salem
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
               I'm a passionate full-stack web developer and cybersecurity student with a strong foundation in modern web technologies. I love creating secure, scalable applications that solve real-world problems.
@@ -62,7 +62,7 @@ export default function About() {
                   Get In Touch
                 </Button>
               </Link>
-              <Link target='_blank' href="/Jana Eldesouky.pdf.pdf">
+              <Link target='_blank' href="/Aly Salem.pdf.pdf">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
                   <Download className="mr-2 h-4 w-4" />
                   Download CV

@@ -44,14 +44,14 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'janadesouky4321@gmail.com',
-      href: 'mailto:janadesouky4321@gmail.com'
+      value: 'alysalem25t@gmail.com',
+      href: 'mailto:alysalem25t@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+20 1229373166',
-      href: 'tel:+201229373166'
+      value: '+20 1211 343 515',
+      href: 'tel:+201211343515'
     },
     {
       icon: MapPin,
@@ -83,7 +83,7 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:janadesouky4321@gmail.com',
+      href: 'mailto:alysalem25t@gmail.com',
       color: 'hover:text-purple-600'
     }
   ];

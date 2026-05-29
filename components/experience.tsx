@@ -4,8 +4,8 @@ import { ArrowRight, Calendar, MapPin, Building } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 export const metadata = {
-    title: 'Experience - Jana Eldesouky',
-    description: 'Professional experience, internships, training, and scholarships of Jana Eldesouky.',
+    title: 'Experience - Aly Salem',
+    description: 'Professional experience, internships, training, and scholarships of Aly Salem.',
 };
 
 export default function Experience() {

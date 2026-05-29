@@ -59,7 +59,7 @@ export function Navbar() {
         <div className="flex h-16 justify-between">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-slate-800 dark:text-white">
-              Jana Eldesouky
+              Aly Salem
             </Link>
           </div>
 
