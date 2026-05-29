@@ -25,7 +25,7 @@ export default function About() {
             <div>
             <div className="relative w-[210px] h-[210px] sm:w-80 sm:h-80 max-w-sm mx-auto lg:mx-0 rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600 to-cyan-600 p-1">
               <div className="w-full h-full bg-slate-200 dark:bg-slate-700 rounded-2xl flex items-center justify-center">
-              <img src="mylove.jpeg" alt="Aly Salem" className="object-cover h-full rounded-2xl" />
+              <img src="b0730077-141b-4217-aafe-0ed3a26e6980.jpg" alt="Aly Salem" className="object-cover h-full rounded-2xl" />
               </div>
             </div>
             </div>
