@@ -4,40 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Github, ExternalLink, Calendar, User, Wrench } from 'lucide-react';
 import { projects } from '@/data/projects';
-// const projects = {
-  // This CMS project was developed to address the growing need for secure, user-friendly content management solutions. The system includes:
-
-  //   • Multi-role user authentication with JWT tokens
-  //   • Rich text editor with media embedding capabilities
-  //   • SEO-friendly URL generation and meta tag management
-  //   • Real-time collaborative editing
-  //   • Automated content backup and version control
-  //   • Mobile-responsive admin dashboard
-  //   • API-first architecture for headless CMS functionality
-
-  //   The project demonstrates my ability to build complex, full-stack applications while maintaining security best practices and optimal performance.
-
-  // • Multi-role user authentication with JWT tokens
-  // • Rich text editor with media embedding capabilities
-  // • SEO-friendly URL generation and meta tag management
-  // • Real-time collaborative editing
-  // • Automated content backup and version control
-  // • Mobile-responsive admin dashboard
-  // • API-first architecture for headless CMS functionality
-  //  challenges: [
-  //   'Implementing secure authentication with role-based permissions',
-  //   'Optimizing database queries for large content volumes',
-  //   'Creating a intuitive admin interface',
-  //   'Ensuring mobile responsiveness across all devices'
-  // ],
-  // learnings: [
-  //   'Advanced React patterns and state management',
-  //   'Database optimization techniques',
-  //   'Security implementation in web applications',
-  //   'User experience design principles'
-  // ]
-
-// };
+import ProjectCarousel from '@/components/ProjectCarousel'
 
 export async function generateStaticParams() {
   return Object.keys(projects).map((id) => ({ id }));
@@ -75,7 +42,7 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
             {project.description}
           </p>
         </div>
-        <img src={project.image} alt={project.title} className="w-full h-full my-10 rounded-xl object-cover transition-transform duration-300 group-hover:scale-110" />
+            <ProjectCarousel images={project.images} />
 
         {/* Project Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">

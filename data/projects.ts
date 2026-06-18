@@ -9,7 +9,7 @@ export type Projects = {
         status: string;
         duration: string;
         team: string;
-        image: string;
+        images: string[];
         gitLink: string;
         demoLink: string;
         challenges: string[];
@@ -83,7 +83,9 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '3 months',
         team: 'Aly Salem',
-        image: '/pearl1.jpeg',
+        images: ['/parel1.png', '/pearl2.jpeg', '/pearl3.jpeg', '/pearl4.jpeg', '/pearl5.jpeg',
+            '/pearl7.jpeg', '/pearl8.jpeg', '/pearl9.jpeg', '/pearl10.jpeg', '/pearl11.jpeg', '/pearl12.jpeg', '/pearl13.jpeg',
+            '/pearl14.jpeg', '/pearl15.jpeg', '/pearl16.jpeg', '/pearl17.jpeg',],
         gitLink: 'https://github.com/Alysalem25/pearl-travel-group',
         demoLink: 'https://pearltravels.com/',
 
@@ -128,7 +130,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '4 months',
         team: 'Solo Project',
-        image: '/articleProject.png',
+        images: ['/articleProject.png'],
         gitLink: 'https://github.com/Alysalem25/Article.git',
         demoLink: '',
 
@@ -145,6 +147,122 @@ The project demonstrates my ability to build a complete full-stack application t
             'User experience design principles'
         ]
     },
+    'bus-live-tracking-system': {
+        title: 'Bus Live Tracking System',
+        year: '2026',
+        description: 'A real-time transportation management platform that enables administrators, drivers, and passengers to track buses live, manage routes, and monitor trips efficiently.',
+        fullDescription: `This Bus Live Tracking System is a comprehensive transportation management platform designed for schools, universities, and transportation companies. The system provides real-time visibility into vehicle locations while streamlining transportation operations.
+
+                        • Real - time GPS bus tracking with live map updates
+                        • Role - based access control for Admins, Drivers, and Passengers
+                        • Route and station management system
+                        • Trip scheduling and recurring weekly trips
+                        • Driver assignment and monitoring
+                        • Bus fleet management
+                        • Real - time notifications and status updates using Socket.IO
+                        • Location history and trip tracking logs
+                        • Responsive dashboard for transportation administrators
+                        • Secure authentication and authorization system
+                        • RESTful API architecture for scalability
+                        • Mobile - friendly user interface
+
+                        The platform focuses on providing accurate real - time location synchronization, improving transportation efficiency, enhancing passenger visibility, and simplifying fleet management through a centralized dashboard.`,
+
+        tech: ['Next.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Tailwind CSS', 'JWT', 'Axios', 'bcrypt'],
+        category: 'Web Development',
+        status: 'Under construction',
+        duration: '??',
+        team: 'Solo Project',
+        images: ['/busTrackin2.jpeg', '/busTracking1.jpeg',
+            '/image(1).png', '/image (2).png', '/image (3).png', '/image (4).png', '/image (5).png', '/image (6).png', '/image (7).png', '/image (8).png',
+            '/image (9).png', '/image (10).png'
+        ],
+        gitLink: 'https://github.com/Alysalem25/bus-tracking',
+        demoLink: '',
+        challenges: [
+            'Implementing real-time location synchronization for multiple users simultaneously',
+            'Managing WebSocket connections efficiently using Socket.IO',
+            'Designing scalable route, trip, and station management modules',
+            'Ensuring secure role-based access control across different user types'
+        ],
+        learnings: [
+            'Real-time communication using Socket.IO and WebSockets',
+            'Building scalable RESTful APIs with Express.js',
+            'Location tracking and geospatial data management',
+            'Designing role-based systems and transportation workflows'
+        ]
+
+
+    },
+    'Advanced-Crypto-Toolkit': {
+        title: 'Crypto Toolkit',
+        year: '2026',
+        description: 'A desktop cryptography application developed in Python that provides encryption, decryption, encoding, decoding, and hashing functionalities through a user-friendly graphical interface.',
+
+        fullDescription: `Crypto Toolkit is an educational cybersecurity project designed to demonstrate the practical implementation of modern cryptographic techniques. The application provides a centralized platform for performing symmetric encryption, asymmetric encryption, data encoding, and hashing operations through an intuitive desktop GUI.
+
+The system was built with a modular architecture, separating cryptographic algorithms into dedicated modules for maintainability, scalability, and clean code organization. It leverages industry-standard cryptographic libraries to ensure secure and reliable implementations of encryption algorithms and security practices.
+
+Key features include:
+• AES, DES, and Triple DES (3DES) symmetric encryption and decryption
+• RSA 2048-bit public/private key generation and encryption
+• Base64, Hexadecimal, and URL encoding/decoding
+• Secure hashing using MD5, SHA-1, SHA-256, and SHA-512
+• User-friendly desktop GUI with tab-based navigation
+• Copy-to-clipboard functionality for easy data handling
+• Input validation and comprehensive error handling
+• Threaded operations to prevent GUI freezing during heavy tasks
+• Secure implementations using CBC mode, random IV generation, and OAEP padding
+• Modular architecture for easy extension and maintenance
+
+The project demonstrates practical knowledge of cryptography concepts, cybersecurity fundamentals, secure software development, GUI programming, and modular application design. It serves as both an educational tool and a portfolio project showcasing the implementation of real-world encryption and security techniques in Python.`,
+
+        tech: [
+            'Python',
+            'Tkinter',
+            'PyCryptodome',
+            'Hashlib',
+            'Base64',
+            'urllib.parse',
+            'Threading',
+            'RSA',
+            'AES',
+            'DES',
+            '3DES'
+        ],
+        category: 'Cybersecurity',
+        status: 'Completed',
+        duration: '2 months',
+        team: 'Aly Salem',
+        images: [
+            '/crypt1.jpeg',
+            '/crypt2.jpeg',
+            '/crypt3.jpeg',
+            '/crypt4.jpeg',
+        ],
+        gitLink: 'https://github.com/Alysalem25/Cryptography-Toolkit',
+        demoLink: '',
+        challenges: [
+            'Implementing multiple cryptographic algorithms while maintaining a clean architecture',
+            'Managing encryption keys and ensuring correct validation for different algorithms',
+            'Building a responsive GUI that remains functional during computationally expensive operations',
+            'Handling secure encryption practices such as IV generation, padding, and RSA key management',
+            'Providing clear error messages for invalid inputs and cryptographic failures',
+            'Designing reusable modules that can be extended with additional algorithms in the future'
+        ],
+
+        learnings: [
+            'Deep understanding of symmetric and asymmetric cryptography concepts',
+            'Practical implementation of AES, DES, 3DES, and RSA encryption algorithms',
+            'Working with professional cryptographic libraries such as PyCryptodome',
+            'Applying secure development practices and cryptographic standards',
+            'Building desktop applications with Python and Tkinter',
+            'Designing modular and maintainable software architectures',
+            'Implementing multithreading to improve user experience and application responsiveness',
+            'Strengthening cybersecurity knowledge through hands-on cryptography development'
+        ]
+    },
+
     'Online-Shop-for-food': {
         title: 'Online-Shop for food',
         year: '2025',
@@ -162,7 +280,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '1 week',
         team: 'Solo Project',
-        image: '/onlineShoppingProject.png',
+        images: ['/onlineShoppingProject.png'],
         gitLink: 'https://github.com/Alysalem25/Online-Shop-for-Food-Beverage.git',
         demoLink: '',
 
@@ -192,7 +310,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '1 week',
         team: 'Solo Project',
-        image: '/coffee_shop.png',
+        images: ['/coffee_shop.png'],
         gitLink: 'https://github.com/Alysalem25/Hush',
         demoLink: '',
 
@@ -222,7 +340,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '2 months',
         team: 'Group Project',
-        image: '/aquaGuard.png',
+        images: ['/aquaGuard.png'],
         gitLink: 'https://github.com/Alysalem25/Nasa',
         demoLink: '',
 
@@ -256,7 +374,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '1 month',
         team: 'Group Project',
-        image: '/DSProject.png',
+        images: ['/DSProject.png'],
         gitLink: 'https://github.com/Alysalem25/Nasa',
         demoLink: '',
 
@@ -289,7 +407,7 @@ The project demonstrates my ability to build a complete full-stack application t
         status: 'Completed',
         duration: '1 month',
         team: 'Group Project',
-        image: '/AIChess.png',
+        images: ['/AIChess.png'],
         gitLink: 'https://github.com/Alysalem25/AI-Chess',
         demoLink: '',
 

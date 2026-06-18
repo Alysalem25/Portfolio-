@@ -39,6 +39,29 @@ export default function Projects() {
       image: '/craftexProject.png'
     },
     {
+      title: 'Advanced Crypto Toolkit',
+      id: 'Advanced-Crypto-Toolkit',
+      year: '2026',
+      description: 'Built a modular cryptography toolkit in Python featuring AES, DES, 3DES, RSA encryption, hashing algorithms, and encoding utilities, all integrated into a responsive desktop GUI for educational and cybersecurity applications.',
+      tech: [
+        'Python',
+        'Tkinter',
+        'PyCryptodome',
+        'Hashlib',
+        'RSA',
+        'AES',
+        'DES',
+        '3DES',
+        'Base64',
+        'Threading'
+      ],
+      category: 'Cybersecurity',
+      status: 'Completed',
+      slug: 'advanced-crypto-toolkit',
+      gitLink: 'https://github.com/Alysalem25/Cryptography-Toolkit',
+      image: '/crypt1.jpeg'
+    },
+    {
       id: 'Article-website',
       title: 'Article Website',
       year: '2023',
@@ -49,6 +72,18 @@ export default function Projects() {
       gitLink: 'https://github.com/Alysalem25/Article.git',
       image: '/articleProject.png'
     },
+    {
+      id: 'bus-live-tracking-system',
+      title: 'Bus Live Tracking System',
+      year: '2026',
+      description: 'A real-time transportation management platform that enables administrators, drivers, and passengers to track buses live on a map, manage routes and stations, schedule trips, and receive instant location updates through a scalable tracking system.',
+      tech: ['Next.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Tailwind CSS', 'JWT', 'Axios', 'bcrypt'],
+      category: 'Web Development',
+      status: 'Completed',
+      gitLink: 'https://github.com/Alysalem25/bus-live-tracking-system',
+      image: '/busTracking.jpeg'
+    },
+
     {
       id: 'Online-Shop-for-food',
       title: 'Online-Shop for food',

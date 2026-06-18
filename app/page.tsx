@@ -31,7 +31,7 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link> */}
-              <Link href="/#contact">  
+              <Link href="/#contact">
                 <Button variant="outline" size="lg">
                   Contact Me
                 </Button>
@@ -101,13 +101,21 @@ export default function Home() {
                 image: '/craftexProject.png'
               },
               {
-                title: 'Article website',
-                id: 'Article-website',
-                description: 'A platform for reading and publishing articles, featuring user authentication and a rich text editor.',
-                tech: 'Vue.js, Express.js, MongoDB, Bootstrap, swiper.js , axios ,bcrypt',
-                slug: 'article-website',
-                image: '/articleProject.png'
+                title: 'Bus Live Tracking System',
+                id: 'Bus-Live-Tracking-System',
+                description: 'Built a full-stack real-time transportation management system with live GPS tracking, route and station management, trip scheduling, driver monitoring, and role-based dashboards for administrators, drivers, and passengers.',
+                tech: 'Next.js, Express.js, MongoDB, Socket.IO, Tailwind CSS, JWT, Axios, bcrypt',
+                slug: 'bus-live-tracking-system',
+                image: '/bus-tracking.jpeg'
               },
+              // {
+              //   title: 'Article website',
+              //   id: 'Article-website',
+              //   description: 'A platform for reading and publishing articles, featuring user authentication and a rich text editor.',
+              //   tech: 'Vue.js, Express.js, MongoDB, Bootstrap, swiper.js , axios ,bcrypt',
+              //   slug: 'article-website',
+              //   image: '/articleProject.png'
+              // },
               {
                 title: 'Pearl Travel Group',
                 id: 'Pearl-Travel-Group',
