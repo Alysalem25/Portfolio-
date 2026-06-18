@@ -36,7 +36,7 @@ export const projects: Projects = {
         status: 'Completed',
         duration: '1 month',
         team: 'Solo Project',
-        image: '/craftexProject.png',
+        images: ['/craftexProject.png'],
         gitLink: 'https://github.com/Alysalem25/Craftex.git',
         demoLink: 'https://craftexeg.com/',
         challenges: [

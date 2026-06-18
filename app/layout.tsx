@@ -1,22 +1,13 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 
-const inter = Inter({ subsets: ['latin'] });
-
 export const metadata: Metadata = {
   title: 'Aly Salem - Full-Stack Developer & Cybersecurity Student',
-  description: 'Portfolio of Aly Salem, a passionate full-stack web developer and cybersecurity student building secure, scalable systems and innovative web applications.',
-  keywords: 'Aly Salem, Full-Stack Developer, Cybersecurity, Web Development, Portfolio',
-  authors: [{ name: 'Aly Salem' }],
-  openGraph: {
-    title: 'Aly Salem - Full-Stack Developer & Cybersecurity Student',
-    description: 'Portfolio showcasing projects, skills, and experience in web development and cybersecurity.',
-    type: 'website',
-  },
+  description:
+    'Portfolio of Aly Salem, a passionate full-stack web developer and cybersecurity student building secure, scalable systems and innovative web applications.',
 };
 
 export default function RootLayout({
@@ -26,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="flex min-h-screen flex-col">
             <Navbar />
